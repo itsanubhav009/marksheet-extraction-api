@@ -1,7 +1,7 @@
-import easyocr
-
-reader = easyocr.Reader(["en"])  # English language
-
-def extract_text_from_image(image_path: str):
-    results = reader.readtext(image_path, detail=0)
-    return " ".join(results)
+easyocr==1.7.0
+numpy==1.24.3
+opencv-python==4.8.0.74
+pillow==10.0.0
+fastapi==0.100.0
+uvicorn==0.23.1
+python-multipart==0.0.6
