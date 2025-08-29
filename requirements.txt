@@ -5,4 +5,5 @@ pillow
 fastapi
 uvicorn
 python-multipart
-pydantic-settings  # Add this line
+pydantic-settings
+pytesseract
