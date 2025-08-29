@@ -7,3 +7,4 @@ uvicorn
 python-multipart
 pydantic-settings
 pytesseract
+pdf2image
